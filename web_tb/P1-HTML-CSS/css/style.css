@@ -37,3 +37,25 @@ li{
     width: 20%;
     text-align: center;
 }
+a{
+    color: aliceblue;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #ff0000;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+div{
+    background-color: #ff0000;
+    width: 100px;
+    height: 100px;
+    transition: all 0.8s;
+}
+div:hover{
+    background-color: #00ff00;
+    border-radius: 50px;
+    transition: all 0.8s;
+}
