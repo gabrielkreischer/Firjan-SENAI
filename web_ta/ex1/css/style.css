@@ -1,0 +1,51 @@
+body{
+    width: 100%;/*largura do body*/
+    height: 300px;/*altura do body*/
+    background-color: black;
+}
+ nav, section, footer{
+    width: 100%;
+    height: 200px;
+}
+header{
+    width: 100%;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+}
+nav{
+    background-color:blueviolet;
+}
+section{
+    background-color:brown;
+}
+footer{
+    background-color:chartreuse;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 5px 0 0 0;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: rgb(92, 131, 30);
+}
+h3{
+    color: rgb(167, 206, 26);
+}
+h4{
+    color: rgb(224, 30, 30);
+}
+h5{
+    color: rgb(67, 31, 150);
+}
+h6{
+    color: rgb(224, 17, 214);
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
