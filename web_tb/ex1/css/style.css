@@ -1,0 +1,45 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+header{
+    background-color: #84c6e3;
+    height: 100px;
+}
+.centro{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header #logo_topo{ 
+    float: left;
+}
+header #logo_topo img{
+    height: 100px;
+}
+header nav {
+    float: right;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    list-style: none;
+    padding: 41px 20px;
+    border-right: solid 1px #666666 ;
+}
+header nav ul li:last-child{
+    border: none;
+}
+header nav ul li:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+section{
+    width: 100%;
+    min-height: 300px;
+    background-color: #cccccc;
+}
