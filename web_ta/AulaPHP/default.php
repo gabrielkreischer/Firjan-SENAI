@@ -6,7 +6,7 @@
     <title>Document</title>
     <?php 
         $host = 'localhost';
-        $db = 'senai_aulaphp';
+        $db = 'senai_ta_aulaphp';
         $user = 'gabriel';
         $pass = '123456';
         $port = 3307; // Porta MySQL correta
@@ -39,10 +39,7 @@
                 // Itera sobre cada linha de resultado
                 foreach ($resultados as $row) {
                     // Exibe o valor da coluna 'id' do registro
-                    echo "ID: " . $row['id'] . "<br>";
-                    
-                    // Exibe o valor da coluna 'nome' do registro
-                    echo "Nome: " . $row['nome'] . "<br>";
+                    echo "ID: " . $row['id'] . " = Nome: " . $row['nome'] . "<br>";
                 }
             } else {
                 // Caso não haja resultados, exibe uma mensagem indicando que nenhum registro foi encontrado
